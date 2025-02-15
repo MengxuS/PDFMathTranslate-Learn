@@ -22,6 +22,7 @@ from babeldoc.high_level import translate as yadt_translate
 from babeldoc.high_level import init as yadt_init
 
 
+# 参数设置与解析
 def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__, add_help=True)
     parser.add_argument(
